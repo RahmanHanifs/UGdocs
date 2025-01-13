@@ -26,7 +26,7 @@ class UserSeeder extends Seeder
                 'email' => 'johndoe@example.com',
                 'normalizedEmail' => 'JOHNDOE@EXAMPLE.COM',
                 'emailConfirmed' => true,
-                'password' => bcrypt('password123'),
+                'password' => bcrypt('password'),
                 'securityStamp' => Str::random(10),
                 'concurrencyStamp' => Str::uuid(),
                 'phoneNumber' => '1234567890',
